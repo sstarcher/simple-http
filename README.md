@@ -1,6 +1,6 @@
 # Simple Golang HTTP Server
 
-Runs a simple golang http server on port 8080.  Responds to requests with `Hello, World`, but when the `Accept` header specifies `application/json` as supported it will respond with a json formatted message.  If the `-debug` parameter is specified it will log each request URL.
+Runs a simple golang http server on port 8080.  Responds to requests with `Hello, World`, but when the `Accept` header specifies `application/json` as supported it will respond with a json formatted message that says `Good Morning`.  If the `-debug` parameter is specified it will log each request URL.
 
 ## Prerequisites
 * Golang 1.12.4 - https://golang.org/doc/install
