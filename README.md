@@ -6,15 +6,15 @@ Runs a simple golang http server on port 8080.  Responds to requests with `Hello
 * Golang 1.12.4 - https://golang.org/doc/install
 * Curl
 
-## Setup
+## Setup instructions, including instructions on how to install prerequisite packages
 * `go get github.com/sstarcher/simple-http`
 * `cd $GOPATH/src/github.com/sstarcher/simple-http`
 * `GO111MODULE=on go mod vendor`
 
-## Run
+## A command to start the application
 * `go run .`
 
-## Tests
+## A command to run the unit tests for your application
 * `go test ./...`
 
 ## Options
